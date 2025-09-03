@@ -1,0 +1,35 @@
+.show-heading{
+    text-align: center;
+}
+
+body{
+    background-color: #232323;
+    color: white;
+}
+
+input {
+    margin-left: 350px;
+    margin-bottom: 20px;
+}
+
+table{
+    margin: auto;
+}
+.edit-btn{
+    background-color: green;
+    border: none;
+    border-radius: 1px;
+}
+.edit-btn a{
+    color: white;
+    text-decoration: none;
+}
+.delete-btn{
+    background-color: red;
+    border: none;
+    border-radius: 1px;
+}
+.delete-btn a{
+    color: white;
+    text-decoration: none;
+}

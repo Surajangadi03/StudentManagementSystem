@@ -1,0 +1,31 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #232323;
+    color: white;
+}
+.edit-form{
+    background-color: #121212;
+    width: 400px;
+    height:400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+.btn{
+    background-color: aqua;
+    padding: 4px;
+    border: none;
+    border-radius: 2px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    font-size: 13.5px;
+}

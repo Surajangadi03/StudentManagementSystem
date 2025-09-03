@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/show.css">
+</head>
+<body>
+    <h1 class="show-heading">Student All Data</h1>
+    <form action="/">
+        <input id="back-btn"  type="submit" value="<<Back">
+    </form>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Gender</th>
+                <th>Email</th>
+                <th>ContactNumber</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in data %}
+            <tr>
+                <td>{{i.ID}}</td>
+                <td>{{i.FirstName}}</td>
+                <td>{{i.LastName}}</td>
+                <td>{{i.Gender}}</td>
+                <td>{{i.Email}}</td>
+                <td>{{i.ContactNumber}}</td>
+                <td>
+                    <button class="edit-btn"><a href="/edit?ID={{i.ID}}">Edit</a></button>|
+                    <button class="delete-btn"><a href="/delete?ID={{i.ID}}">Delete</a></button>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    
+</body>
+</html>

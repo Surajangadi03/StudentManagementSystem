@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #232323;
+    color: white;
+}
+#title{
+    text-align: center;
+    text-decoration: underline;
+}
+.sub-heading{
+    text-align: center;
+}
+
+.form-head{
+    color: red;
+    text-align: center;
+}
+.form-container{
+    background-color: #121212;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button a{
+    text-decoration: none;
+}
+button {
+    background-color: aqua;
+    border: none;
+    color:black;
+    padding: 4px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
